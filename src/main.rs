@@ -10,5 +10,5 @@ use iron::Iron;
 fn main() {
     let mut mount = Mount::new();
     mount.mount("/", Static::new(Path::new("public")));
-    Iron::new(mount).http("localhost:3000").unwrap();
+    Iron::new(mount).http("0.0.0.0:80").unwrap();
 }
