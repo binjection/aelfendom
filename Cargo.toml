@@ -1,0 +1,9 @@
+[package]
+name = "aelvendom"
+version = "0.0.1"
+authors = ["Hackers of Ælvendom <hackers@aelvendom.org>"]
+
+[dependencies]
+staticfile = "*"
+mount = "*"
+iron = "*"
